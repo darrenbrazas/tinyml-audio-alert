@@ -10,4 +10,4 @@
 <img width="862" height="365" alt="image" src="https://github.com/user-attachments/assets/fdd71286-fcc1-42be-b2e3-3ed513ac4d48" />
 <img width="870" height="124" alt="image" src="https://github.com/user-attachments/assets/36e5239b-57df-47f5-8844-3f1e4e797ba7" />
 
-- Deplotment Target: ARM Cortex M4 Processor
+- Deployment Target: ARM Cortex M4 Processor
