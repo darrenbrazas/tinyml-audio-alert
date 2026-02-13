@@ -1,5 +1,25 @@
 # tinyml-audio-alert
 
+## Repository Structure
+
+This repository is organized to separate data, firmware, and
+documentation for clarity and future extensibility.
+
+- `data/`  
+  Dataset structure and class definitions used during model training.
+  Raw audio samples are excluded.
+
+- `firmware/`  
+  Embedded C++ code running on the microcontroller, including audio
+  capture, inference logic, and alert handling.
+
+- `model/`  
+  Model architecture details, training configuration, and performance
+  metrics.
+
+- `docs/`  
+  System architecture diagrams, experimental notes, and design decisions.
+
 ## Overview
 
 This project is a real time embedded hardware system that detects specific enviromental sounds (ex. alarms, noise) using a TinyML model running on a microcontroller.
