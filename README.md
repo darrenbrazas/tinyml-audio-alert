@@ -14,6 +14,9 @@ documentation for clarity and future extensibility.
 - `firmware/`  
   Embedded C++ code running on the microcontroller, including audio
   capture, inference logic, and alert handling.
+  - v1/ – Base version (original implementation).
+
+  - v2/ – Enhanced version with temporal logic to reduce false positives.
 
 - `model/`  
   Model architecture details, training configuration, and performance
