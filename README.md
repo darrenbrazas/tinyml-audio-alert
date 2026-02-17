@@ -29,7 +29,7 @@ documentation for clarity and future extensibility.
 
 This project is a real time embedded hardware system that detects specific enviromental sounds (ex. alarms, noise) using a TinyML model running on a microcontroller.
 Audio is captured on an integrated microphone, processed using digital signal processing (DSP) and MFCC and classified using a quantized neural network deployed on an ARM Cortex M4.
-When a target sound is heard, the system triggers a hardware alert (LED ON).
+When a target sound is heard, the system triggers a hardware alert (LED ON). Version 2 focusses on temporal logic, ensuring the right sound is detected and reducing false positive, more information can be found in the subfolders.
 
 ## Objectives
 
