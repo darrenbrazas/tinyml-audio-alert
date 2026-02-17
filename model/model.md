@@ -1,3 +1,19 @@
+Scroll For Earlier Versions
+# Model Summary (Version 2)
+
+- Input: MFCC feature vectors
+<img width="771" height="454" alt="image" src="https://github.com/user-attachments/assets/6e615471-43d1-4fd9-954c-2303224f44e0" />
+
+
+- Architecture: Lightweight Neural Network
+
+- Quantization: int8
+<img width="763" height="382" alt="image" src="https://github.com/user-attachments/assets/6ae9cd7a-3a8f-4bbf-82fe-01feb09ddd8f" />
+
+
+- Deployment Target: ARM Cortex M4 Processor
+
+
 # Model Summary (Version 1)
 
 - Input: MFCC feature vectors
