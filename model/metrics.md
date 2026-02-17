@@ -1,3 +1,8 @@
+# Model Metrics (Version 2)
+<img width="770" height="380" alt="image" src="https://github.com/user-attachments/assets/887e29cb-da7b-475a-bf3e-444e4826bd8a" />
+<img width="785" height="506" alt="image" src="https://github.com/user-attachments/assets/45e31a3f-20b4-491b-bd87-0579365398d5" />
+
+
 # Model Metrics (Version 1)
 
 
