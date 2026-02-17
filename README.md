@@ -51,7 +51,7 @@ When a target sound is heard, the system triggers a hardware alert (LED ON). Ver
 - **IDE**: Arduino IDE
 - **Version Control**: Git, Github
 
-## Current Features (Version 1)
+## Version History (Version 1)
 
 - Base implementation of audio alert system
 - Real time audio capture for integrated microphone
@@ -60,21 +60,30 @@ When a target sound is heard, the system triggers a hardware alert (LED ON). Ver
 - LED based alert triggered when target sound confidence exceeds threshold (.8)
 - No cloud audio streaming as of version 1.
 
+## (Version 2)
+
+- Introduced temporal logic, a majority vote window is used to dictate an alarm sound.
+- Handles intermittent sounds more reliably.
+- Keeps a 7 window history of the alarm confidence.
+- 3 of the 7 alarm probabilities must be above threshold to correctly predict alarm sound.
+- All v1 features retained.
+- Ready foundation for additional sound classes and IoT alerts.
+
 ## Limitations
 
 - Alert output limited to LED
 - No wireless notifications
 - Limited dataset size (nano microcontroller)
-- single window interference (no temporal smoothing)
+- Version 2 still only handles a single type of alert logic (windowed majority vote)
 
 ## Planned Improvements
 
-- False Positive Reduction
+- Further reduce false positives 
 - Expanded Sounds Classes (more sounds)
 - Advanced DSP & Feature Extraction
-- Model Optimization
 - Real time Alerts
 - Dataset Expansion
+- Future version control for v3+ features
 
 
 
