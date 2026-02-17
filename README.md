@@ -1,6 +1,7 @@
 # tinyml-audio-alert
 
-## VERSION-2 (Look at branches for prev version info)
+## Current Version
+Version 2 (Look at branches for prev version info)
 
 ## Repository Structure
 
